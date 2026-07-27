@@ -1,0 +1,11 @@
+name: Test2
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run QA scrape as 23f3001874@ds.study.iitm.ac.in
+        run: echo hi
